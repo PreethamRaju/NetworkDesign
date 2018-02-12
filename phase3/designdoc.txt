@@ -1,0 +1,37 @@
+1) import socket
+
+This module gives access to BSD socket interface.
+The functions under this module are
+
+2) socket.gethostbyname('localhost') returns the IP address of the host
+
+3) socket.socket(family,type,protocol) creates a socket of the given address family, socket type and protocol number.
+
+4) socket.bind(address) binds the socket to the address
+
+5) sock.sendto(),sock.recvfrom() are used to send and receive data for a UDP socket 
+
+6) import base64
+
+This module allows data encoding and decoding as specified by the RFC 3548. This standard also defines the Base16, Base32, and Base64 algorithms used for encoding and decoding binary strings into text strings.
+
+Here, base64.b16encode(data) is used to convert the jpeg image data into hexadecimal and vice-versa by the use of base64.b16decode(data)
+
+7) import string
+
+The string module has a number of useful constants and classes which support sequence type methods such as str, unicode, list, tuple, bytearray, buffer, xrange.
+
+Here, str.encode() and str.decode() are used to encode data into a string.
+
+8) import json
+
+This library parses JSON into a Python dictionary or list. It can also convert Python dictionaries or lists into JSON strings.
+
+Here, json.loads(pkt) and json.dumps(lst) are used to convert a string into a list and and a list into a string respectivey.
+
+9) import sys
+
+Here, sys.exit() is used to terminate the program.
+
+
+

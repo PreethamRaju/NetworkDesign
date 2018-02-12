@@ -1,0 +1,16 @@
+﻿import socket
+
+This module gives access to BSD socket interface.
+The functions under this module are
+
+socket.gethostbyname('localhost') returns the IP address of the host
+
+socket.socket(family,type,protocol) creates a socket of the given address family, socket type and protocol number.
+
+socket.bind(address) binds the socket to the address
+
+sock.sendto(),sock.recvfrom() are used to send and receive data for a UDP socket 
+
+
+
+
