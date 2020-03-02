@@ -1,6 +1,3 @@
-Team size - 1
-Name - Preetham M Raju
-
 Files submitted
 client.py - The python code to receive an image of type jpeg from the server.
 server.py - The python code to send an image to a client running on the same machine.
